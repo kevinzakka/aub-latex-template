@@ -1,0 +1,135 @@
+\documentclass[12pt]{article}
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage{lipsum}
+\usepackage{indentfirst}
+\titlelabel{\thetitle.\quad}
+\usepackage{setspace}
+\usepackage[bookmarksnumbered,bookmarksopen]{hyperref}
+\usepackage{tocloft}
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+\usepackage[nottoc]{tocbibind}
+\usepackage{setspace}
+\usepackage{indentfirst}
+\usepackage{xcolor}
+\usepackage{enumitem}
+
+% path for images
+\graphicspath{ {images/} }
+
+\begin{document}
+
+\begin{titlepage}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+\center
+ 
+\includegraphics[scale=0.17]{logo.png}\\[1cm] 
+ 
+%----------------------------------------------------------------------------------------
+%   HEADING SECTIONS
+%----------------------------------------------------------------------------------------
+\pagenumbering{roman}
+\textsc{\LARGE American University of Beirut}\\[0.5cm]
+\textsc{\Large Final Year Project (FYP)}\\[0.5cm] 
+\textsc{\large EECE 501}\\[0.5cm] 
+\textsc{\large Group Final Report}\\[0.5cm] 
+\textsc{\large Fall 2017-2018}\\[0.5cm] 
+
+%----------------------------------------------------------------------------------------
+%   TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\HRule \\[0.4cm]
+{ \Large \bfseries MagaFYP: Make FYP Great Again}\\[0.4cm] 
+\HRule \\[0.5cm]
+ 
+%----------------------------------------------------------------------------------------
+%   AUTHOR SECTION
+%----------------------------------------------------------------------------------------
+
+{\large \textbf{Advisor}: Donald \textsc{Trump}}\\[1.5 cm]
+
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large
+Donald \textsc{Trump Jr.} \\
+Donald \textsc{Trump Jr} \\
+Donald  \textsc{Trump Jr.}
+\end{flushleft}
+\end{minipage}
+~
+\begin{minipage}{0.4\textwidth}
+\begin{flushright} \large
+201201222 \\
+201201222 \\
+201201222
+\end{flushright}
+\end{minipage}\\[0.5 cm]
+ 
+%----------------------------------------------------------------------------------------
+
+\vfill % Fill the rest of the page with whitespace
+
+\end{titlepage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%   Executive Summary
+%----------------------------------------------------------------------------------------
+
+\addtocounter{page}{1}
+\addcontentsline{toc}{section}{Executive Summary}
+\section*{\centering{Executive Summary}}
+
+\newpage
+
+%----------------------------------------------------------------------------------------
+%   Acknowledgments
+%----------------------------------------------------------------------------------------
+
+\addcontentsline{toc}{section}{Acknowledgments}
+\section*{\centering{Acknowledgments}}
+
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\renewcommand{\contentsname}{Table of Contents}
+\tableofcontents
+\newpage
+\listoffigures
+\listoftables
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pagenumbering{arabic}
+\section{Introduction}
+\subsection{Motivation}
+\subsection{Desired Needs}
+\section{Requirements and Deliverables}
+\subsection{Requirements and Specifications}
+\subsection{Deliverables}
+\section{Technical and Non-Technical Constraints}
+\subsection{Technical Constraints}
+\subsection{Non-Technical Constraints}
+\section{Literature Review}
+\section{Applicable Standards}
+\section{Proposed Solution Methodology}
+\section{Design}
+\newpage
+\subsection{Design Alternatives and Decisions}
+\subsubsection{Alternatives and Decision for Overall Design}
+\subsubsection{Alternatives and Decision for Low Level 1}
+\subsubsection{Alternatives and Decision for Low Level 2}
+\subsection{Design Iterations}
+\section{Preliminary Implementation and Testing}
+\section{List of Resources and Engineering Tools Needed}
+\section{Detailed Project Plan and Schedule}
+\section{References}
+\section{Appendix}
+\subsection{Updated Project Description and Agreement Form}
+\subsection{Minutes Of All Meetings Up-To-Date}
+\end{document}
